@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import { NextPage } from "next";
 import Head from "next/head";
 
@@ -9,6 +10,8 @@ const Cart: NextPage = () => {
         <meta name="description" content="Carrinho"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Header />
 
       <main>
         <h1>
