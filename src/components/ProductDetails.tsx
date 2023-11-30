@@ -19,8 +19,8 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
         <Image
           src={product.imageUrl}
           alt={product.name}
-          height={400}
-          width={500}
+          height={300}
+          width={400}
         />
       </Col>
 
